@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "nodemon src/server.js",
+    "dev": "next dev"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.1",
+    "next": "^10.0.1",
     "nodemon": "^2.0.4",
     "sqlite-async": "^1.1.0"
   }
