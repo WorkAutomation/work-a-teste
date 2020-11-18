@@ -1,7 +1,10 @@
 function Home(){
     return(
-        <h1>Teste supimpa meu</h1>
-    )
+        <div>
+            <h1>Home</h1>
+            <button href="views/teste.js">Trocar página</button>
+        </div>
+    );
 }
 
 export default Home
