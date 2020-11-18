@@ -4,17 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/server.js",
     "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WorkAutomation/work-a-teste.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WorkAutomation/work-a-teste/issues"
+  },
+  "homepage": "https://github.com/WorkAutomation/work-a-teste#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "hbs": "^4.1.1",
     "next": "^10.0.1",
-    "nodemon": "^2.0.4",
-    "sqlite-async": "^1.1.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
